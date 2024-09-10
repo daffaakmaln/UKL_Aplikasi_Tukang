@@ -27,7 +27,6 @@ class _MyProfileState extends State<MyProfile> {
           IconButton(
             icon: const Icon(Icons.notifications, color: Colors.black),
             onPressed: () {
-              // Handle notification action
             },
           ),
         ],
@@ -49,7 +48,7 @@ class _MyProfileState extends State<MyProfile> {
                   ),
                 ],
               ),
-              child: Row(
+              child: const Row(
                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                children: [
                  CircleAvatar(

@@ -11,18 +11,18 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Navigation Bar Demo',
+      title: 'Navigation Bar',
       home: MyHomePage(),
     );
   }
 }
 
-class NavigationBarr extends StatefulWidget {
+class NavigationBar1 extends StatefulWidget {
   @override
-  NavigationBarrState createState() => NavigationBarrState();
+  NavigationBar1State createState() => NavigationBar1State();
 }
 
-class NavigationBarrState extends State<NavigationBarr> {
+class NavigationBar1State extends State<NavigationBar1> {
   int _selectedIndex = 0;
 
   final List<Widget> _pages = [
@@ -63,7 +63,7 @@ class NavigationBarrState extends State<NavigationBarr> {
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.account_circle),
-            label: 'Isi Saldo',
+            label: 'Akun',
           ),
         ],
         currentIndex: _selectedIndex,

@@ -94,7 +94,7 @@ class _MyHomePageState extends State<MyHomePage> {
               Container(
                   padding: const EdgeInsets.all(10),
                   decoration: BoxDecoration(
-                    color: Colors.orange,
+                    color: Colors.white,
                     boxShadow: [
                       BoxShadow(
                           color: Colors.grey.withOpacity(0.2),

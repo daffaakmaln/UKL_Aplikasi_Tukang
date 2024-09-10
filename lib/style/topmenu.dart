@@ -28,39 +28,39 @@ class TopMenu extends StatelessWidget {
               borderRadius: BorderRadius.circular(25),
               image: DecorationImage(
                 image: AssetImage(
-                    'assets/images/topmenu.png'), // Ganti dengan path gambar Anda
+                    'assets/images/topmenu.png'), 
                 fit: BoxFit.cover,
               ),
             ),
-            padding: const EdgeInsets.all(8.0), // Add padding here
+            padding: const EdgeInsets.all(8.0), 
             width: 350.0,
             child: const Center(child: Text('')),
           ),
-          const SizedBox(width: 20.0), // Add spacing between containers
+          const SizedBox(width: 20.0), 
           Container(
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(25),
               image: DecorationImage(
                 image: AssetImage(
-                    'assets/images/topmenu.png'), // Ganti dengan path gambar Anda
+                    'assets/images/topmenu.png'), 
                 fit: BoxFit.cover,
               ),
             ),
-            padding: const EdgeInsets.all(8.0), // Add padding here
+            padding: const EdgeInsets.all(8.0), 
             width: 350.0,
             child: const Center(child: Text('')),
           ),
-          const SizedBox(width: 20.0), // Add spacing between containers
+          const SizedBox(width: 20.0), 
           Container(
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(25),
               image: DecorationImage(
                 image: AssetImage(
-                    'assets/images/topmenu.png'), // Ganti dengan path gambar Anda
+                    'assets/images/topmenu.png'), 
                 fit: BoxFit.cover,
               ),
             ),
-            padding: const EdgeInsets.all(8.0), // Add padding here
+            padding: const EdgeInsets.all(8.0), 
             width: 350.0,
             child: const Center(child: Text('')),
           ),

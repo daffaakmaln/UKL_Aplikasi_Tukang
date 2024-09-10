@@ -13,7 +13,7 @@ class ContainerCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: 200, // Adjust width as needed
+      width: 200, 
       margin: EdgeInsets.all(8),
       padding: EdgeInsets.all(12),
       decoration: BoxDecoration(
@@ -39,8 +39,8 @@ class ContainerCard extends StatelessWidget {
               fontSize: 16,
               color: Colors.black,
             ),
-            maxLines: 2, // Limit the number of lines to 2
-            overflow: TextOverflow.ellipsis, // Show ellipsis if text overflows
+            maxLines: 2, 
+            overflow: TextOverflow.ellipsis, 
           ),
           SizedBox(height: 8,),
           Text("View more ->",

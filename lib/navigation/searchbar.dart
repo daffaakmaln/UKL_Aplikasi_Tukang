@@ -13,7 +13,7 @@ class ScBar extends StatelessWidget {
         borderRadius: BorderRadius.circular(50)), 
       width:
           MediaQuery.of(context).size.width * 0.7, // 70% of the screen width
-      child: Row(
+      child: const Row(
         children: [
           Icon(Icons.search,color: Colors.black, size: 25,),
           SizedBox(width: 10),

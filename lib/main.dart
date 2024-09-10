@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:ukl_perlu_tukang/navigation/navbar1.dart';
-// import 'package:ukl_perlu_tukang/navigation/navbar.dart';
-// import 'package:ukl_perlu_tukang/navigation/searchbar.dart';
 
 void main() {
   runApp(MyApp());
@@ -12,8 +10,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: NavigationBarr(),
+      home: NavigationBar1(),
     );
   }
 }
-
